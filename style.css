@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header_container {
+    background: #202938;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.navigation {
+    list-style: none;
+}
+
+.search_input {
+    position: relative;
+}
+
+.search_input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #B3B2B266;
+    color: #ffff;
+    padding-left: 35px;
+    outline: none;
+}
+
+.search_input svg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate(45%, 25%);
+    color: #fff;
+    width: 24px;
+    height: 24px;
+
+
+}
+
+section {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+span {
+    display: block;
+    margin-top: 10px;
+    color: #666;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.card_header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.card_icon svg {
+    width: 40px;
+    height: 40px;
+    color: #007bff;
+}
+
+.card_title {
+    margin-left: 10px;
+}
+
+.card_title span:first-child {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.card_title span:last-child {
+    display: block;
+    font-size: 1em;
+    color: #666;
+}
+
+.card_footer {
+    padding: 10px 20px;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card_footer span {
+    color: #007bff;
+}
+
+.card_footer svg {
+    color: #007bff;
+}
+
+.search_input svg:hover {
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 15px;
+}
+
+.notification_icon {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+.profile .profile_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #333;
+}
+
+
+
+.chart-container {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+::placeholder {
+    color: #FFFFFF7A;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: #FFFFFF7A;
+}
