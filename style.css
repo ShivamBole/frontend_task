@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -208,15 +215,7 @@ body {
     color: #888;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    font-family: Arial, sans-serif;
-}
 
 .header-container {
     background: #202938;
@@ -253,6 +252,73 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+.table_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    font-size: 14px;
+    color: #888;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+td {
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.client-name {
+    display: flex;
+    align-items: center;
+}
+
+.client-name img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.status.completed {
+    background-color: #e0f7e9;
+    color: #4caf50;
+}
+
+.status.pending {
+    background-color: #fff8e1;
+    color: #ff9800;
+}
+
+.status.cancelled {
+    background-color: #ffebee;
+    color: #f44336;
 }
 
 /* Responsive styles */
